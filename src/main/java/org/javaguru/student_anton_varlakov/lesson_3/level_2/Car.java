@@ -12,4 +12,16 @@ public class Car {
         this.price = price;
     }
 
+    public String getBrand() {
+        return this.brand = brand;
+    }
+
+    public String getColor() {
+        return this.color = color;
+    }
+
+    public int getPrice() {
+        return this.price = price;
+    }
+
 }
