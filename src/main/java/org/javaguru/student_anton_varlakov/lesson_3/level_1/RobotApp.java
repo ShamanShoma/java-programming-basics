@@ -6,9 +6,11 @@ public class RobotApp {
         Robot robot1 = new Robot("Android");
         Robot robot2 = new Robot("IOS");
 
+        robot1.setName("Vasya");
         String name1 = robot1.getName();
         System.out.println("Robot1: " + name1);
 
+        robot2.setName("Anton");
         String name2 = robot2.getName();
         System.out.println("Robot2: " + name2);
     }
