@@ -4,9 +4,9 @@ public class Car {
 
     private String brand;
     private String color;
-    private String price;
+    private int price;
 
-    public Car(String brand, String color, String price) {
+    public Car(String brand, String color, int price) {
         this.brand = brand;
         this.color = color;
         this.price = price;
