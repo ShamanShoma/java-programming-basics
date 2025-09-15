@@ -7,19 +7,22 @@ public class CarApp {
         Car toyota = new Car("Toyota", "white", 500000);
         Car lexus = new Car("Lexus", "green", 2000000);
 
+        lada.setBrand("X-rey");
         String ladaBrend = lada.getBrand();
         String ladaColor = lada.getColor();
-        String ladaPrice = lada.getColor();
+        int ladaPrice = lada.getPrice();
         System.out.println("Brend: " + ladaBrend + ", Color: " + ladaColor + ", Price: " + ladaPrice);
 
         String toyotaBrend = toyota.getBrand();
+        toyota.setColor("yellow");
         String toyotaColor = toyota.getColor();
-        String toyotaPrice = toyota.getColor();
+        int toyotaPrice = toyota.getPrice();
         System.out.println("Brend: " + toyotaBrend + ", Color: " + toyotaColor + ", Price: " + toyotaPrice);
 
         String lexusBrend = lexus.getBrand();
         String lexusColor = lexus.getColor();
-        String lexusPrice = lexus.getColor();
+        lexus.setPrice(3000000);
+        int lexusPrice = lexus.getPrice();
         System.out.println("Brend: " + lexusBrend + ", Color: " + lexusColor + ", Price: " + lexusPrice);
 
     }
