@@ -25,4 +25,28 @@ public class Schedule {
         this.appointment2 = appointment2;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getSpeciality() {
+        return speciality;
+    }
+
+    public LocalDate getDateAdmission() {
+        return dateAdmission;
+    }
+
+    public MakeAppointment getAppointment1() {
+        return appointment1;
+    }
+
+    public MakeAppointment getAppointment2() {
+        return appointment2;
+    }
+
 }

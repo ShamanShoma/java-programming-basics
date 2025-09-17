@@ -20,4 +20,20 @@ public class MakeAppointment {
         this.costVisit = costVisit;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getDiagnosis() {
+        return diagnosis;
+    }
+
+    public int getCostVisit() {
+        return costVisit;
+    }
+
 }
