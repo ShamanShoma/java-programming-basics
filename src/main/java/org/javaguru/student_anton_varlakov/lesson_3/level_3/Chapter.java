@@ -2,12 +2,15 @@ package org.javaguru.student_anton_varlakov.lesson_3.level_3;
 
 public class Chapter {
 
-    private String name;
+    private String title;
     private String textChapter;
 
-    public Chapter(String name, String textChapter) {
-        this.name = name;
+    public Chapter(String title, String textChapter) {
+        this.title = title;
         this.textChapter = textChapter;
     }
+
+    public String getTitle() { return title; }
+    public String getTextChapter() { return textChapter; }
 
 }
