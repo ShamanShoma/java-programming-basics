@@ -15,5 +15,4 @@ public class Book {
         this.chapter1 = chapter1;
         this.chapter2 = chapter2;
     }
-
 }
