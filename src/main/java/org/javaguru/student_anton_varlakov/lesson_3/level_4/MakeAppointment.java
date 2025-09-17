@@ -1,18 +1,19 @@
 package org.javaguru.student_anton_varlakov.lesson_3.level_4;
 
-import java.util.Date;
+
+import java.time.LocalDate;
 
 public class MakeAppointment {
 
     private String firstName;
     private String lastName;
     private String diagnosis;
-    private Date costVisit;
+    private int costVisit;
 
     public MakeAppointment(String firstName,
                            String lastName,
                            String diagnosis,
-                           Date costVisit) {
+                           int costVisit) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.diagnosis = diagnosis;

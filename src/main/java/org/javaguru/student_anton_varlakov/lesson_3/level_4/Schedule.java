@@ -1,18 +1,20 @@
 package org.javaguru.student_anton_varlakov.lesson_3.level_4;
 
+import java.time.LocalDate;
+
 public class Schedule {
 
     private String firstName;
     private String lastName;
     private String speciality;
-    private int dateAdmission;
+    private LocalDate dateAdmission;
     private MakeAppointment appointment1;
     private MakeAppointment appointment2;
 
     public Schedule(String firstName,
                     String lastName,
                     String speciality,
-                    int dateAdmission,
+                    LocalDate dateAdmission,
                     MakeAppointment appointment1,
                     MakeAppointment appointment2) {
         this.firstName = firstName;
