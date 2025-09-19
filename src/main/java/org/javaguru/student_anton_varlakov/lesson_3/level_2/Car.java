@@ -1,6 +1,6 @@
 package org.javaguru.student_anton_varlakov.lesson_3.level_2;
 
-public class Car {
+class Car {
 
     private String brand;
     private String color;

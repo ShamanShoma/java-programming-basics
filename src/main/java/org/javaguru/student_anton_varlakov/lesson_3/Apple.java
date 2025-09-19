@@ -1,6 +1,6 @@
 package org.javaguru.student_anton_varlakov.lesson_3;
 
-public class Apple {
+class Apple {
 
     private String grade;
     private String color;

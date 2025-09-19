@@ -1,6 +1,6 @@
 package org.javaguru.student_anton_varlakov.lesson_3.level_3;
 
-public class BookApp {
+class BookApp {
     public static void main(String[] args) {
 
         Chapter philosopherStone = new Chapter("Philosopher's Stone", "Harry Potter and the Philosopher's Stone");

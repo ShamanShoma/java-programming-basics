@@ -1,6 +1,6 @@
 package org.javaguru.student_anton_varlakov.lesson_3;
 
-public class AppleApp {
+class AppleApp {
     public static void main(String[] args) {
 
         Apple apple1 = new Apple("Gold", "yellow", 5);

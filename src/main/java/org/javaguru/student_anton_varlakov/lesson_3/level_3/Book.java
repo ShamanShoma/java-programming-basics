@@ -1,6 +1,6 @@
 package org.javaguru.student_anton_varlakov.lesson_3.level_3;
 
-public class Book {
+class Book {
 
     private String name;
     private String author;

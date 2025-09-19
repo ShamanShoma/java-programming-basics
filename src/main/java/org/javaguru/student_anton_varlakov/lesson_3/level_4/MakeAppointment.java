@@ -3,7 +3,7 @@ package org.javaguru.student_anton_varlakov.lesson_3.level_4;
 
 import java.time.LocalDate;
 
-public class MakeAppointment {
+class MakeAppointment {
 
     private String firstName;
     private String lastName;

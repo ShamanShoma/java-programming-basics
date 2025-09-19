@@ -2,7 +2,7 @@ package org.javaguru.student_anton_varlakov.lesson_3.level_4;
 
 import java.time.LocalDate;
 
-public class DoctorTimetableApp {
+class DoctorTimetableApp {
     public static void main(String[] args) {
 
          MakeAppointment beforeLunch = new MakeAppointment("Anton", "Varlakov",
